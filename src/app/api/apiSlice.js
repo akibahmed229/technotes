@@ -7,7 +7,7 @@ import { setCredentials } from "../../features/auth/authSlice";
 // this code sets up a baseQuery object for making authenticated HTTP requests to a server.
 const baseQuery = fetchBaseQuery({
   // baseUrl: "http://localhost:3500",
-  baseUrl: "https://technotes-api.onrender.com",
+  baseUrl: "https://technotes-api-5gcn.onrender.com/",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token; // get token from state
