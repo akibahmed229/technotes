@@ -7,7 +7,7 @@ const Public = () => {
       {/* Header Section*/}
       <header>
         <h1>
-          Welcome to <span className="nowrap">Dan D. Repairs!</span>
+          Welcome to <span className="nowrap">TechNotes Repairs!</span>
         </h1>
       </header>
 
