@@ -1,9 +1,0 @@
-[[redirects]]
-from = "/*"
-to = "/index"
-state = 200
-
-[[rewrites]]
-from = "/*"
-to = "/index"
-state = 200
